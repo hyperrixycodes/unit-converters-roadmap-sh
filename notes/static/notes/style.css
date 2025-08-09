@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    flex: 1;
+}
+
+.nav-link {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+/* in styles.css */
+.navbar {
+    margin-bottom: 20px;
+  }
+
+.nav-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+
+.notes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.note-card {
+    padding: 15px;
+    border: 1px solid gray;
+    background: lightgray;
+    border-radius: 5px;
+}
+
+.note-actions {
+    margin-top: 5px;
+}
+
+.note-actions a {
+    margin-right: 5px;
+}
+
+
+.form-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.form-box form p {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background: #4a90e2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: #3b78c2;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #006400; /* greenish like your screenshot */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}

@@ -1,0 +1,17 @@
+{% extends 'notes/layout.html' %}
+{% load static %}
+
+{% block content %}
+<div class="notes-list">
+    {% for note in notes %}
+        <div class="note-card">
+            <strong>{{ note.title }}</strong>
+            <p>{{ note.body }}</p>
+            <div class="note-actions">
+                <a href="{% url 'edit_note' note.id %}" class="btn btn-success btn-sm">Edit</a>
+                <a href="{% url 'delete_note' note.id %}" class="btn btn-danger btn-sm">Delete</a>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'notes/layout.html' %}
+{% load static %}
+
+{% block content %}
+<h2>  Editing the note</h2>
+
+<form method="post" style="margin-left: 20px">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input class="btn btn-primary" type="submit" value="Update note" style="margin-left: 20px; margin-top: 10px; align-items: center;">
+</form>
+{% endblock %}
