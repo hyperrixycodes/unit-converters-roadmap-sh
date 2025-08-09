@@ -15,13 +15,13 @@ A simple Python-based unit converter that allows users to easily convert between
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
+   git clone https://github.com/hyperrixycodes/unit-converters-roadmap-sh.git
 ````
 
 2. Navigate to the project folder:
 
    ```bash
-   cd <repo-name>
+   cd unitconverter
    ```
 
 ## Usage
@@ -29,7 +29,7 @@ A simple Python-based unit converter that allows users to easily convert between
 Run the program:
 
 ```bash
-python unit_converter.py
+python manage.py runserver
 ```
 
 Follow the prompts to select the type of conversion and enter values.
